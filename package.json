@@ -1,0 +1,22 @@
+{
+  "name": "js-todo-app",
+  "version": "1.0.0",
+  "description": "An app for exploring JS ORMs and testing around them.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6"
+  }
+}
